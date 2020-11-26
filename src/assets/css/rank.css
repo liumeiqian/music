@@ -1,0 +1,117 @@
+/* .rank {} */
+
+.rank .head {
+  width: 100vw;
+  height: 2.92rem;
+  box-sizing: border-box;
+  background: url('https://s3.music.126.net/mobile-new/img/hot_music_bg_2x.jpg?f01a252389c26bcf016816242eaa6aee=') no-repeat;
+  background-size: cover;
+  padding: 0.6rem 0 0 0.4rem;
+}
+
+.rank .head .bg {
+  width: 2.84rem;
+  height: 1.34rem;
+  background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=') no-repeat;
+  background-position: -24px -30px;
+  background-size: 166px;
+}
+
+.rank .head>p {
+  color: #fff;
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+}
+
+/* .rank .list {} */
+
+.rank .list>li {
+  padding: 0.18rem 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+.rank .list>li .num {
+  width: 0.8rem;
+  font: 0.34rem/0.8rem '微软雅黑';
+  text-align: center;
+  color: #999;
+}
+
+.rank .list>li:nth-child(1) .num, .rank .list>li:nth-child(2) .num, .rank .list>li:nth-child(3) .num {
+  color: #df3436;
+}
+
+.rank .list>li .left {
+  flex: 1;
+}
+
+.rank .list>li .right {
+  width: 0.46rem;
+  margin: 0 0.2rem;
+  background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=') no-repeat;
+  /* background-position: -23px 9px;
+  background-size: 166px; */
+  background-position: -0.46rem 0.18rem;
+  background-size: 3.32rem;
+}
+
+.rank .list>li p {
+  font: 0.34rem/0.34rem '微软雅黑';
+  color: #333;
+  height: 0.34rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rank .list>li p span {
+  color: #888;
+}
+
+.rank .list>li h6 {
+  font-size: 0.24rem;
+  margin-top: 0.14rem;
+  color: #888;
+  height: 0.34rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rank .list>li h6 i {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.16rem;
+  margin-right: 0.08rem;
+  background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=') no-repeat;
+  /* background-position: 0px 0px;
+  background-size: 166px; */
+  background-position: 0 0;
+  background-size: 3.32rem;
+}
+
+.rank .watch {
+  height: 1.1rem;
+  font: 0.28rem/1.1rem '微软雅黑';
+  text-align: center;
+  color: #999;
+}
+
+.rank .watch span {
+  display: inline-block;
+  padding-right: 0.28rem;
+  position: relative;
+}
+
+.rank .watch span::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0.43rem;
+  display: block;
+  width: 0.14rem;
+  height: 0.24rem;
+  line-height: 0;
+  font-size: 0;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAyMiI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTEgMWwxMCAxMEwxIDIxIi8+PC9zdmc+') no-repeat;
+  background-size: 0.14rem 0.24rem;
+}
